@@ -1,0 +1,26 @@
+nav{
+  background-color: #eaded7;
+  min-height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+nav .nav_content{
+  text-transform: capitalize;
+}
+nav .nav_content a{
+  color: #795744;
+  padding: 0.5rem;
+  transition: all 0.3ms linear;
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: none;
+}
+nav .nav_content h3{
+  padding: 0.5rem;
+  transition: all 0.3ms linear;
+  font-size: 32px;
+  font-weight: 700;
+  color: #453227;
+}
