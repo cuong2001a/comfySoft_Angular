@@ -1,0 +1,26 @@
+.input_search{
+  background-color: #f1f5f8;
+  border-radius: 0.25rem;
+  border-color: transparent;
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+.filter_cate button{
+    display: block;
+    margin: 0.25em 0px;
+    padding: 0.25rem 0px;
+    text-transform: capitalize;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid transparent;
+    letter-spacing: 0.1rem;
+    color: #617d98;
+    cursor: pointer;
+}
+.filter_cate button.active{
+  opacity: 1;
+  border-color: #617d98;
+}
